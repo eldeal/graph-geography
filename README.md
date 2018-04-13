@@ -20,4 +20,4 @@ This is split into 3 steps to remind me what these steps are and allow one to be
 
 Test queries
 
-List of all regions `match(n:`_geography_group_` {code:'GOR10'})-[:usedBy]-(m:`_geography_location_`) return m`
+List of all regions ``match(n:`_geography_group_` {code:'GOR10'})-[:usedBy]-(m:`_geography_location_`) return m``
