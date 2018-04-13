@@ -7,7 +7,7 @@ Investigation into storing ONS geography in Neo4j and tying to CMD heirarchies.
 
 Install NEO4j: http://brewformulas.org/Neo4j
 
-## loading the dummy data
+## Loading the dummy data
 This is split into 3 steps to remind me what these steps are and allow one to be consistent with CMD.
 
 1. Go to http://127.0.0.1:7474/browser/
