@@ -18,7 +18,13 @@ This is split into 3 steps to remind me what these steps are and allow one to be
 3. On command line: `cypher-shell <  relationships.cypher`
 
 
-Test queries
+##Test queries
 
 List of all regions ``match(n:`_geography_group_` {code:'GOR10'})-[:usedBy]-(m:`_geography_location_`) return m``
 Return heirarchy for a given region ``match(n:`_geography_location_` {code:'E10000031'})-[:usedBy*]-(m:`_geography_hierarchy_`) return m``
+Return with wildcard ``match(n:`_geography_group_` {code:'GOR10'})-[:usedBy]-(m:`_geography_location_`) where m.label =~ 'North.*' return m``
+
+##Notes
+
+``WD16_LAD16_CTY16_OTH_UK_LU.csv`` is example of heirarchy file provided by ONS Geography team
+
