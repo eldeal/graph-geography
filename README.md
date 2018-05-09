@@ -23,6 +23,7 @@ This is split into 3 steps to remind me what these steps are and allow one to be
 List of all regions ``match(n:`_geography_group_` {code:'GOR10'})-[:usedBy]-(m:`_geography_location_`) return m``
 Return heirarchy for a given region ``match(n:`_geography_location_` {code:'E10000031'})-[:usedBy*]-(m:`_geography_hierarchy_`) return m``
 Return with wildcard ``match(n:`_geography_group_` {code:'GOR10'})-[:usedBy]-(m:`_geography_location_`) where m.label =~ 'North.*' return m``
+Return groups created before a specific year (2015) ```match(n:`_geography_group_`) where n.year < 2015 return n```
 
 ##Notes
 
