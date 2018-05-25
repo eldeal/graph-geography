@@ -35,3 +35,5 @@ Return lists created before a specific year (2015) ```match(n:`_code_list`) wher
 ##Notes
 
 ``WD16_LAD16_CTY16_OTH_UK_LU.csv`` is example of hierarchy file provided by ONS Geography team
+
+A rough draft of how this might integrate with the [Code List API is here](https://github.com/ONSdigital/dp-code-list-api/tree/feature/graph-specs) - this includes updates to the spec and the relevant queries for each endpoint
